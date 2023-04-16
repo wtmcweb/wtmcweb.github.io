@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+}
+.block {
+    font-family: 'Lobster', cursive;
+    background-color: rgba(94, 94, 94, 0.315);
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 25px;
+    transition: 1s ease;
+}
+.block:hover {
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+.hc {
+    height: 35px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 15px;
+    transition: 1s ease;
+    background-color: rgba(56, 56, 212, 0.527);
+    border-radius: 10px;
+}
+.hc:hover {
+    transition: 1s ease;
+    transform: scale(1.1);
+}
